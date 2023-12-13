@@ -1,0 +1,79 @@
+[
+  {
+    "id": "4f6e7c1d-5d49-47c7-b8b1-60d8760e259d",
+    "title": "Product 1",
+    "description": "This is the description for product 1.",
+    "code": "PRD1",
+    "price": 29.99,
+    "status": false,
+    "stock": 50,
+    "category": "Category 1",
+    "images": [
+      "https://example.com/product1/image1.jpg",
+      "https://example.com/product1/image2.jpg",
+      "https://example.com/product1/image3.jpg"
+    ],
+    "thumbnail": "https://example.com/product1/thumbnail.jpg"
+  },
+  {
+    "id": "ec3d5b01-1a27-4d08-b98e-2d93c0b52e4a",
+    "title": "Product 2",
+    "description": "This is the description for product 2.",
+    "code": "PRD2",
+    "price": 39.99,
+    "status": true,
+    "stock": 35,
+    "category": "Category 2",
+    "images": [
+      "https://example.com/product2/image1.jpg",
+      "https://example.com/product2/image2.jpg"
+    ],
+    "thumbnail": "https://example.com/product2/thumbnail.jpg"
+  },
+  {
+    "id": "73d067bd-3096-44f2-bb29-33d7054e9f9b",
+    "title": "Product 3",
+    "description": "This is the description for product 3.",
+    "code": "PRD3",
+    "price": 19.99,
+    "status": true,
+    "stock": 100,
+    "category": "Category 1",
+    "images": [
+      "https://example.com/product3/image1.jpg",
+      "https://example.com/product3/image2.jpg",
+      "https://example.com/product3/image3.jpg"
+    ],
+    "thumbnail": "https://example.com/product3/thumbnail.jpg"
+  },
+  {
+    "id": "cda8eb3d-7c3e-4bda-8d6e-9ad042d86d98",
+    "title": "Product 4",
+    "description": "This is the description for product 4.",
+    "code": "PRD4",
+    "price": 49.99,
+    "status": false,
+    "stock": 20,
+    "category": "Category 2",
+    "images": [
+      "https://example.com/product4/image1.jpg",
+      "https://example.com/product4/image2.jpg"
+    ],
+    "thumbnail": "https://example.com/product4/thumbnail.jpg"
+  },
+  {
+    "id": "6ab94b74-29c5-4d7a-9f75-ee2c8e87f2ce",
+    "title": "Product 5",
+    "description": "This is the description for product 5.",
+    "code": "PRD5",
+    "price": 24.99,
+    "status": true,
+    "stock": 80,
+    "category": "Category 3",
+    "images": [
+      "https://example.com/product5/image1.jpg",
+      "https://example.com/product5/image2.jpg"
+    ],
+    "thumbnail": "https://example.com/product5/thumbnail.jpg"
+  }
+]

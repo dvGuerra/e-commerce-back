@@ -1,0 +1,25 @@
+[
+  {
+    "productId": "4f6e7c1d-5d49-47c7-b8b1-60d8760e259d",
+    "images": [
+      {
+        "id": "4f6e7c1d-5d49-47c7-c8b1-30d8760e259d",
+        "url": "https://example.com/product1/image1.jpg"
+      },
+      {
+        "id": "5f6e8c1d-5d49-47c7-c8b1-30d8760e259d",
+        "url": "https://example.com/product1/image2.jpg"
+      },
+      {
+        "id": "4f6e7c1d-5d49-47c7-c8b0-90d8760e651d",
+        "url": "https://example.com/product1/image3.jpg"
+      }
+    ],
+    "thumbnails": [
+      {
+        "id": "4f6e7c1d-5d49-47d7-c8b1-30d8760e269c",
+        "url": "https://example.com/product1/thumbnail.jpg"
+      }
+    ]
+  }
+]

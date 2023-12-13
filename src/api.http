@@ -1,0 +1,40 @@
+### Get products
+GET http://localhost:8080/api/v1/products
+
+### Get products with params
+GET http://localhost:8080/api/v1/products?limit=2&sort=asc
+
+### Get product by id
+GET http://localhost:8080/api/v1/products/65724c5a5675c27a1a164ffb
+
+### Update product
+PUT http://localhost:8080/api/v1/products/65724c5a5675c27a1a164ffb
+Content-Type: application/json
+
+{
+  "title": "Updated Product 1",
+  "description": "Updated Product 1 description, again",
+  "price": 99.00
+}
+
+### Delete product
+DELETE http://localhost:8080/api/v1/products/65724c5a5675c27a1a164ffb
+
+### Get carts
+GET http://localhost:8080/api/v1/carts
+
+### Get carts by id
+GET http://localhost:8080/api/v1/carts/6567b4bd38146c9982ce9fff
+
+### Update cart
+PUT http://localhost:8080/api/v1/carts/6567b4bd38146c9982ce9fff/product/65724c5a5675c27a1a164ffb
+Content-Type: application/json
+
+{
+  "products": [
+    {
+      "productId": "65724c5a5675c27a1a164ffb",
+      "quantity": 1
+    }
+  ]
+}
